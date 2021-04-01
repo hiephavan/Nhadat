@@ -30,9 +30,6 @@ class MasterHeader extends Component {
 			           <nav id="access">
 			           	<div className="menu-main-menu-container">
 		           			<ul id="menu-main-menu" className="menu">
-		           				<li id="menu-item-17952" className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home no-megamenu   ">
-			           				<a className="menu-item-link" href="https://paris.wpresidence.net/">Home</a>
-			           			</li>
 		           				<li id="menu-item-18438" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children no-megamenu   ">
 			           				<a className="menu-item-link" target="_blank" href="https://demo.wpresidence.net/">Mua bán</a>
 		           				<ul style={{}} className="  sub-menu ">
