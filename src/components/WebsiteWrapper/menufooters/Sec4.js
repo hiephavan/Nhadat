@@ -10,7 +10,7 @@ class Sec4 extends Component {
 	              <div className="footer-middle-colum1">
   
   <div className="footer-menu-colum-title">
-    <h4>
+    <h4 >
       <a href="https://batdongsan.com.vn/nha-dat-cho-thue">NHÀ ĐẤT CHO THUÊ</a>
     </h4>
   </div>

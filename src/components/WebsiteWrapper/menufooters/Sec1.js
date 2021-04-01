@@ -9,7 +9,7 @@ class Sec1 extends Component {
 	            <li id="text-10" style ={{listStyleType: 'none'}}className="widget-container widget_text">
 	              <div className="footer-middle-colum1">
                     <div className="footer-middle-colum-title">
-                      <h4>
+                      <h4  >
                         <a href="https://batdongsan.com.vn/nha-dat-ban-tp-hcm">KHU VỰC TP HCM</a>
                       </h4>
                     </div>
