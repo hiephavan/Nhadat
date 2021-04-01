@@ -14,12 +14,11 @@ class WebsiteWrapper extends Component {
 		    </div>
 		    <MenuFooter />
 		   	<Footer />
-		    <input type="hidden" id="wpestate_ajax_log_reg" defaultValue="19fdf550e2" />
-		    <a href="https://paris.wpresidence.net/#" className="backtop">
-		      <i className="fas fa-chevron-up">
-		      </i>
+		    <input type="hidden" id="wpestate_ajax_log_reg" />
+		    <a href="https://paris.wpresidence.net/#" className="backtop islive">
+				<i className="fas fa-chevron-up"></i>
 		    </a>
-		    <a href="https://paris.wpresidence.net/#" className="contact-box">
+		    <a href="https://paris.wpresidence.net/#" className="contact-box islive">
 		      <i className="fas fa-envelope">
 		      </i>
 		    </a>
