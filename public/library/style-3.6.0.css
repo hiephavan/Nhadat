@@ -114,7 +114,17 @@ b, strong{
     padding-left: 15px;
     padding-right: 15px;
 }
-
+.selecthover {
+    width: 100%;
+    margin-top: 0px; 
+    padding: 10px 13px;
+    border-radius: 3px;
+    border-color: #EFEEEE;
+}
+.selecthover:hover {
+    padding: 9px 13px;
+    border: 2px solid #ddb327;
+}
 .leftmargin{
     padding-left: 15px;
 }
@@ -4787,7 +4797,7 @@ textarea.form-control {
     float: left;
     width: 100%;
     padding: 0px 0px 10px;
-    display:none;
+    /*display:none;*/
 }
 
 #search_wrapper.search_wr_10 {
@@ -4826,7 +4836,35 @@ textarea.form-control {
     float: left;
     width: 100%;
     padding: 0px 0px 10px;
-    display:none;
+    /*display: hidden;*/
+    transition: all 0.4s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    
+}
+.adv_search_show_fields {
+    transition: all 0.4s ease-out;
+    /*transition: opacity 1s ease-out;*/
+    padding-bottom: 120px;
+    animation: show;
+    /*height: 250px;*/
+    overflow: inherit;
+    /*opacity: 1;*/
+    }
+@keyframes show{
+    0%{
+         overflow: hidden;
+         opacity: 0%;
+    }
+    50% {
+        opacity: 0%;
+        overflow: hidden;
+    }
+    100%{
+        opacity: 1;
+        overflow: inherit;
+    }
 }
 
 #search_wrapper.search_wr_11 {
@@ -14090,7 +14128,7 @@ table tbody tr td {
     width: 100%;
     display: inline;
     float: left;
-    margin: 0px 13px 13px 0px;
+    /*margin: 5px 13px 13px 0px;*/
     padding:0px;
     font-size:13px;
     color: #8593a9;

@@ -10,7 +10,7 @@ class ListingFilter extends Component {
           <div data-toggle="dropdown" id="a_filter_action" className="filter_menu_trigger" data-value="Types"> Loại hình <span className="caret caret_filter">
             </span>
           </div>
-          <ul className="dropdown-menu filter_menu" role="menu" aria-labelledby="a_filter_action">
+          <ul className="dropdown-menu filter_menu" role="menu" aria-labelledby="a_filter_action" style={{marginLeft: '-16px'}}>
             <li role="presentation" data-value="all">Loại hình</li>
             <li role="presentation" data-value="rentals">Cho thuê</li>
             <li role="presentation" data-value="sales">Bán</li>
