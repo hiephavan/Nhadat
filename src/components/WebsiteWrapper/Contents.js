@@ -37,9 +37,9 @@ class Contents extends Component {
 	                  <div className="elementor-section-wrap">
 	                    <SectionA />
 	                    <SectionB />
-	                    <SectionC />
+	                   
 	                    <SectionD />
-	                    <SectionE />
+	                  
 	                    <SectionF />
 	                  </div>
 	                </div>

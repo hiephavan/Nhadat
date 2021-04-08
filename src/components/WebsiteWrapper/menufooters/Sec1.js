@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Sec1 extends Component {
   render() {
     return (
-    	<div id="first" className="widget-area col-md-3 ">
+    	<div id="first" className="widget-area col-md-3 display-center">
 	          <ul className="xoxo">
 	            <li id="text-10" style ={{listStyleType: 'none'}}className="widget-container widget_text">
 	              <div className="footer-middle-colum1">

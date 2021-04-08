@@ -1,27 +1,50 @@
 import React, { Component } from 'react';
 
+import { makeStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+import Slider from '@material-ui/core/Slider';
 class Price extends Component {
+	constructor(props) {
+		super(props);
+			this.state= { 
+				 value: [0, 100000]
+			}
+		
+	}
+
+handleChange=(event, newValue) =>{
+	this.setState({
+			value: newValue
+		})
+}
+
+valuetext=(value) =>{
+	return `${value}đ`;
+}
   render() {
+  	// console.log(this.props.price)
+  	// var {priceBool} = this.props
+  	// var {price} = this.props
     return (
     	<div className="col-md-6 property_price">
-		            <div className="adv_search_slider">
-		              <p>
-		                <label htmlFor="amount">Price range:</label>
-		                <span id="amount" className="wpresidence_slider_price">€ 0 to € 1,500,000</span>
-		              </p>
-		              <div id="slider_price" className="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-		                <div className="ui-slider-range ui-corner-all ui-widget-header" style={{left: '0%', width: '100%'}}>
-		                </div>
-		                <span tabIndex={0} className="ui-slider-handle ui-corner-all ui-state-default" style={{left: '0%'}}>
-		                </span>
-		                <span tabIndex={0} className="ui-slider-handle ui-corner-all ui-state-default" style={{left: '100%'}}>
-		                </span>
-		              </div>
-		              <input type="hidden" id="price_low" name="price_low" defaultValue={0} />
-		              <input type="hidden" id="price_max" name="price_max" defaultValue={1500000} />
-		            </div>
-		          </div>
+		            <div >
+      <Typography style={{ fontSize: '12px'}} id="range-slider" gutterBottom>
+        Khoảng giá: {this.state.value[0]} triệu đồng - {this.state.value[1]} triệu đồng  
+      </Typography>
+      <Slider style={{color: '#ddb327', marginTop: '-10px'}}
+       min ={0}
+       step={1}
+       max ={100000}
+        value={this.state.value}
+        onChange={this.handleChange}
+        valueLabelDisplay="auto"
+        aria-labelledby="range-slider"
+        getAriaValueText={this.props.valuetext}
+      />
+    </div>
+    </div>
 )
 }
 }
+
 export default Price;

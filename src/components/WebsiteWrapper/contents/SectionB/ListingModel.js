@@ -5,7 +5,7 @@ class SectionB extends Component {
   render() {
     return (
 		<div className="wpestate_filter_list_properties_wrapper" data-align="vertical">
-		  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+		  <div className="col-md-3 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
 		    <div className="property_listing property_unit_type3  " data-link>
 		      <div className="listing-unit-img-wrapper">
 		        <div className="featured_gradient">
@@ -92,7 +92,7 @@ class SectionB extends Component {
 		      </div>
 		    </div>
 		  </div>
-		  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/book9-800x467.jpg" data-modal-title="Luxury Villa In Rego Park" data-modal-link="https://paris.wpresidence.net/properties/luxury-villa-in-rego-park/" data-listid={132}>
+		  <div className="col-md-3 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/book9-800x467.jpg" data-modal-title="Luxury Villa In Rego Park" data-modal-link="https://paris.wpresidence.net/properties/luxury-villa-in-rego-park/" data-listid={132}>
 		    <div className="property_listing property_unit_type3  " data-link>
 		      <div className="listing-unit-img-wrapper">
 		        <div className="featured_gradient">
@@ -176,7 +176,7 @@ class SectionB extends Component {
 		      </div>
 		    </div>
 		  </div>
-		  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/home2-800x467.jpg" data-modal-title="Lovelace Road Greenfield" data-modal-link="https://paris.wpresidence.net/properties/lovelace-road-greenfield/" data-listid={127}>
+		  <div className="col-md-3 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/home2-800x467.jpg" data-modal-title="Lovelace Road Greenfield" data-modal-link="https://paris.wpresidence.net/properties/lovelace-road-greenfield/" data-listid={127}>
 		    <div className="property_listing property_unit_type3  " data-link>
 		      <div className="listing-unit-img-wrapper">
 		        <div className="featured_gradient">
@@ -261,7 +261,7 @@ class SectionB extends Component {
 		      </div>
 		    </div>
 		  </div>
-		  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_7-835x467.jpg" data-modal-title="Cement Factory for Sale" data-modal-link="https://paris.wpresidence.net/properties/cement-factory-thompson/" data-listid={111}>
+		  <div className="col-md-3 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_7-835x467.jpg" data-modal-title="Cement Factory for Sale" data-modal-link="https://paris.wpresidence.net/properties/cement-factory-thompson/" data-listid={111}>
 		    <div className="property_listing property_unit_type3  " data-link>
 		      <div className="listing-unit-img-wrapper">
 		        <div className="featured_gradient">
@@ -345,7 +345,7 @@ class SectionB extends Component {
 		      </div>
 		    </div>
 		  </div>
-		  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor2-835x467.jpg" data-modal-title="Family House In Hudson" data-modal-link="https://paris.wpresidence.net/properties/family-house-in-hudson/" data-listid={72}>
+		  <div className="col-md-3 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor2-835x467.jpg" data-modal-title="Family House In Hudson" data-modal-link="https://paris.wpresidence.net/properties/family-house-in-hudson/" data-listid={72}>
 		    <div className="property_listing property_unit_type3  " data-link>
 		      <div className="listing-unit-img-wrapper">
 		        <div className="featured_gradient">
@@ -431,7 +431,7 @@ class SectionB extends Component {
 		      </div>
 		    </div>
 		  </div>
-		  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/featured_property-835x467.jpg" data-modal-title="Gorgeous Apartment in Paris" data-modal-link="https://paris.wpresidence.net/properties/gorgeous-farm-in-jersey/" data-listid={59}>
+		  <div className="col-md-3 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/featured_property-835x467.jpg" data-modal-title="Gorgeous Apartment in Paris" data-modal-link="https://paris.wpresidence.net/properties/gorgeous-farm-in-jersey/" data-listid={59}>
 		    <div className="property_listing property_unit_type3  " data-link>
 		      <div className="listing-unit-img-wrapper">
 		        <div className="featured_gradient">
