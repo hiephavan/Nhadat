@@ -23,6 +23,10 @@ import city from './contents/sectionB/filters/city'
 import cityBool from './contents/sectionB/filters/cityBool'
 import def  from './contents/sectionB/filters/def'
 import defaultBool from './contents/sectionB/filters/defaultBool'
+import modelShow from './contents/sectionB/models/modelShow'
+import newsShow from './contents/sectionD/newsShow'
+import brokerBool from './contents/sectionC/brokerBool'
+import brokerAreaBool from './contents/sectionC/brokerAreaBool'
 const myReducer = combineReducers ({
 	//Common
 		boolean: boolean,
@@ -49,7 +53,11 @@ const myReducer = combineReducers ({
 		city,
 		cityBool,
 		def,
-		defaultBool,	
+		defaultBool,
+		modelShow,
+		newsShow,
+		brokerBool,
+        brokerAreaBool
 		
 })
 export default myReducer;

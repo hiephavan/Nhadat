@@ -5,10 +5,8 @@ class Quarter2 extends Component {
   render() {
     return (
       <div className="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-773be5dd" data-id="773be5dd" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;animation_delay&quot;:400}">
-       <button type="button" style ={{padding: "0px 5px", height: '50px',marginTop: '65%', color :'#ddb327'}}className="btn btn-default"><i class="fas fa-angle-left"></i>
-
-        </button>
-        <div style ={{paddingRight: '5px'}} className="elementor-column-wrap elementor-element-populated">
+       
+        <div style ={{marginLeft: '10px'}} className="elementor-column-wrap elementor-element-populated">
           
           <div className="elementor-widget-wrap">
 

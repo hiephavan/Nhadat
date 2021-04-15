@@ -25,3 +25,16 @@ export const STATUS_BOOL ='STATUS_BOOL'
 export const CITY_BOOL ='CITY_BOOL'
 export const AREA_BOOL ='AREA_BOOL'
 export const DEFAULT_BOOL ='DEFAULT_BOOL'
+  //Section B Model show 
+
+
+  //Section B Model Hidden
+export const MODEL_SHOW ='MODEL_SHOW'
+  //Section C 
+export const BROKER_BOOL ='BROKER_BOOL'
+export const BROKER_AREA_BOOL ='BROKERA_AREA_BOOL'
+
+
+
+  //Section D show/hidden
+export const NEWS_SHOW ='NEWS_SHOW'

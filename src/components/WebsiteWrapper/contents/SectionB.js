@@ -41,11 +41,8 @@ class SectionB extends Component {
                       </div>
                     </section>
                     <div className="elementor-element elementor-element-490d6a6d elementor-widget elementor-widget-Wpresidence_Filter_List_Properties" data-id="490d6a6d" data-element_type="widget" data-widget_type="Wpresidence_Filter_List_Properties.default">
-                      <div className="elementor-widget-container">
                         <ListingFilter />
-                        <ListingModel />
-                        
-                      </div>
+                        <ListingModel /> 
                     </div>
                   </div>
                 </div>

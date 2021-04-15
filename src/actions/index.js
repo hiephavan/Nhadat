@@ -164,6 +164,34 @@ export const bStatusBool = ()=> {
 	}
 }
 
+// Section B Hidden/Show
+export const modelShow = ()=> {
+	return {
+		type: types.MODEL_SHOW,
+		
+	}
+}
+//Section C 
+export const brokerBool = ()=> {
+	return {
+		type: types.BROKER_BOOL,
+		
+	}
+}
+export const brokerAreaBool = ()=> {
+	return {
+		type: types.BROKER_AREA_BOOL,
+		
+	}
+}
+
+// Section D news Hidden/Show
+export const newsShow = ()=> {
+	return {
+		type: types.NEWS_SHOW,
+		
+	}
+}
 
 
 

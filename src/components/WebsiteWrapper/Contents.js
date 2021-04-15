@@ -39,7 +39,7 @@ class Contents extends Component {
 	                    <SectionB />
 	                   
 	                    <SectionD />
-	                  
+	                    <SectionC />
 	                    <SectionF />
 	                  </div>
 	                </div>

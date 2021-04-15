@@ -648,7 +648,7 @@ input::placeholder {
 #access {
     display: inline-block;
     height: 100%;
-    float: right;
+    float: left ;
     margin: 0px 185px 0px 0px;
     max-width: 800px;
 }
@@ -660,7 +660,7 @@ input::placeholder {
 #access ul {
     font-size: 13px;
     list-style: none;
-    margin: 0 0 0 -0.8125em;
+    margin: 20px 0 0 -0.8125em;
     padding-left: 0;
     z-index: 99999;
     text-align: right;
@@ -702,8 +702,8 @@ input::placeholder {
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     /*padding-top: 23px;*/
     transition: none;
     -moz-transition: none;
@@ -750,7 +750,7 @@ input::placeholder {
 
 .menu > li{
     height: 100%;
-    line-height: 90px;
+    line-height: 30px;
 }
 
 .hover_type_3  .menu > li{
@@ -980,6 +980,12 @@ input::placeholder {
     content: "\f105";
       font-family: "Font Awesome 5 Free";
     float: right;
+}
+.menu-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #mobile_display{
@@ -1351,7 +1357,11 @@ input::placeholder {
     padding-top: 0px;
     max-width: 100%;
 }
-
+.header_wrapper.customnav_1{
+    height: 100px;
+    padding-top: 0px;
+    max-width: 100%;
+}
 .header_transparent .header_wrapper.navbar-fixed-top.customnav{
     background-color: #fff;
 }
@@ -2677,7 +2687,11 @@ input::placeholder {
    border-bottom: 2px solid #ddb327;
    box-shadow: #eed891 0px 3px 5px;
 }
-
+.customnav.header_wrapper.header_type5_1 { 
+ min-height: 100px;
+   border-bottom: 2px solid #ddb327;
+   box-shadow: #eed891 0px 3px 5px;
+}
 .customnav .header5_top_row{
     position: absolute;
     left: 0px;
@@ -2889,7 +2903,7 @@ input::placeholder {
 }
 
 .header_type5 .menu > li {
-    line-height: 55px;
+    line-height: 30px;
 }
 
 .header_type5 #access  a{
@@ -2902,7 +2916,7 @@ input::placeholder {
 
 .customnav.header_type5 .menu > li,
 .customnav.header_type5.hover_type_4  .menu > li{
-    line-height: 70px;
+    line-height: 30px;
 }
 
 .header_type5.hover_type_4 .menu > li{
@@ -6370,7 +6384,7 @@ a.submit_listing:hover{
 }
 
 .wpestate_filter_list_properties_wrapper{
-    margin:0px -15px;
+    margin:0px -5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6449,7 +6463,15 @@ a.submit_listing:hover{
     margin-left: -15px;
     padding-top: 0px;
 }
-
+.show_hidden_model {
+    /*float: left;*/
+    /*width: 100%;*/
+    /*padding: 0px 0px 10px;*/
+    /*transition: all 0.4s ease-out;*/
+    /*opacity: 0;*/
+    height: 0;
+    overflow: hidden;
+}
 .advanced_search_sidebar .filter_menu{
     margin-top: 2px;
     margin-left: -1px;
@@ -6910,7 +6932,7 @@ a.submit_listing:hover{
 }
 
 .shortcode-col{
-    padding: 0px 5px;
+    padding: 0px 10px;
     float: left;
 }
 
@@ -14194,7 +14216,7 @@ table tbody tr td {
 }
 
 .adv-search-1 .filter_menu_trigger{
-    margin-top: 0px;
+    margin: -1px;
     border-radius: 3px;
     padding: 9px 12px;
     overflow: hidden;
@@ -23691,7 +23713,11 @@ color:#8593a9;
 .property_unit_type3 .unit3agent{
     display: inline-block;
 }
+.elementor-content-menu {
+    width: 700px;
 
+
+    }
 .property_unit_type3 .property_agent_wrapper_type1 i{
     color:#777;
     margin-right: 3px;
@@ -23786,7 +23812,7 @@ color:#8593a9;
 
 .unit_type3_details {
     width: auto;
-    background-color: #ddb327;
+    
     float: right;
     padding: 2px 15px;
     line-height: 22px;
@@ -29345,4 +29371,11 @@ color:#fff;
   margin-top: 30px;
   font-size: 14px;
   line-height: 1.5em;
+}
+.new-update {
+
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 600;
+
 }
