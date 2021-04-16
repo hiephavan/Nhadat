@@ -5,8 +5,8 @@ import ListingModel from './SectionB/ListingModel'
 class SectionB extends Component {
   render() {
     return (
-	   <section className="elementor-section elementor-top-section elementor-element elementor-element-2ada4da6 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2ada4da6" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style={{width: '1192px', left: '-45px'}}>
-          <div className="elementor-container elementor-column-gap-default">
+	   <section className="elementor-section elementor-top-section elementor-element elementor-element-2ada4da6 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2ada4da6" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style={{width: '1440px',left: '-45px',background: '#f6f6f6'}}>
+          <div className="elementor-container elementor-column-gap-default" >
             <div className="elementor-row">
               <div className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-29f70480" data-id="29f70480" data-element_type="column">
                 <div className="elementor-column-wrap elementor-element-populated">

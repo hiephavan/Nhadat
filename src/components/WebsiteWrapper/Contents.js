@@ -9,13 +9,14 @@ import SectionF from './contents/SectionF'
 class Contents extends Component {
   render() {
     return (
-		<div className="container content_wrapper">
+    <div style={{marginTop: '690px',height: '480px', backgroundColor:'white' }} className="container main_wrapper  wide">
+		<div className="container content_wrapper" >
 	        <div className="row">
 	          <div className="col-xs-12 col-md-12 breadcrumb_container">
 	            <div style={{height: '30px'}}>
 	            </div>
 	          </div>
-	          <div className="col-xs-12 col-md-12 single_width_page">
+	          <div className="col-xs-12 col-md-12 single_width_page" style={{backgroundColor: 'white'}}>
 	            <span className="entry-title listing_loader_title">Your search results</span>
 	            <div className="spinner" id="listing_loader">
 	              <div className="rect1">
@@ -50,6 +51,7 @@ class Contents extends Component {
 	          </div>
 	        </div>
 	    </div>
+	</div>
 )
 }
 }
