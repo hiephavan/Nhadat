@@ -14,7 +14,7 @@ class Quarter5 extends Component {
                       <div className="places_cover" data-link="https://paris.wpresidence.net/area/le-touquet/">
                       </div>
                       <div className="places_button_content">
-                        <button type="button" style ={{padding: "0px 5px", height: '40px',width: '25px', marginTop: '65%',marginRight: '-195px', backgroundColor :'#000'}}className="btn "><i class="fas fa-angle-right fa-lg"></i>
+                        <button type="button" style ={{padding: "0px 5px",position: 'absolute', height: '40px',width: '25px', marginTop: '-15%',marginLeft: '38%', backgroundColor :'#000'}}className="btn "><i class="fas fa-angle-right fa-lg"></i>
 
                      </button> 
                       </div>

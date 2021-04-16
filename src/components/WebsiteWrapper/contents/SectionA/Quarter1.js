@@ -22,7 +22,7 @@ class Quarter1 extends Component {
 
                     </div>
                       <div className="places_button_content">
-                        <button type="button" style ={{padding: "0px 5px", height: '40px',width: '25px', marginTop: '65%',marginLeft: '-195px', backgroundColor :'#000'}}className="btn "><i class="fas fa-angle-left fa-lg"></i>
+                        <button type="button" style ={{padding: "0px 5px",position: 'absolute', height: '40px',width: '25px', marginTop: '-15%',marginLeft: '-50%', backgroundColor :'#000'}}className="btn "><i class="fas fa-angle-left fa-lg"></i>
 
                      </button> 
                       </div>
