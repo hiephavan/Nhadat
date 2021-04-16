@@ -297,7 +297,7 @@ small, .small {
 }
 
 .content_wrapper{
-    width: 1200px;
+    width: 1920px;
     margin: 0px auto;
     background-color: #f7f7f7;
     padding: 0px 15px 30px 15px;
@@ -29393,4 +29393,11 @@ color:#fff;
     font-size: 12px;
     font-weight: 600;
 
+}
+@media (min-width: 1024px)
+.elementor-widget-wrap .elementor-element .elementor-widget-container .article_container places_list_2 {
+    width: calc(100%/5 - 16px);
+    margin: 0 10px 20px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
 }

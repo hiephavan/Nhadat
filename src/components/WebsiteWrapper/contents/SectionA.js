@@ -8,7 +8,7 @@ import Quarter5 from './SectionA/Quarter5'
 class SectionA extends Component {
   render() {
     return (
-	   	<section className="elementor-section elementor-top-section elementor-element elementor-element-23c3a053 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="23c3a053" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style={{width: '1920px', left: '-405px'}}>
+	   	<section className="elementor-section elementor-top-section elementor-element elementor-element-23c3a053 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="23c3a053" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" >
           <div className="elementor-container elementor-column-gap-default">
             <div className="elementor-row">
              
