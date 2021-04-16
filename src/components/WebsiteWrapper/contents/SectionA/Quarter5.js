@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class Quarter4 extends Component {
+class Quarter5 extends Component {
   render() {
     return (
       <div className="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-722d21f4" data-id="722d21f4" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;animation_delay&quot;:400}">
@@ -12,6 +12,11 @@ class Quarter4 extends Component {
                   <div className="article_container places_list_2  ">
                     <div className="places_wrapper_type_2" style={{backgroundImage: 'url(https://pariswpresidence.b-cdn.net/wp-content/uploads/2020/06/coast-980x777.jpg)', height: '340px'}}>
                       <div className="places_cover" data-link="https://paris.wpresidence.net/area/le-touquet/">
+                      </div>
+                      <div className="places_button_content">
+                        <button type="button" style ={{padding: "0px 5px", height: '40px',width: '25px', marginTop: '65%',marginRight: '-195px', backgroundColor :'#000'}}className="btn "><i class="fas fa-angle-right fa-lg"></i>
+
+                     </button> 
                       </div>
                       <div className="places_type_2_content">
                         <h4>
@@ -25,9 +30,9 @@ class Quarter4 extends Component {
               </div>
             </div>
           </div>
-          
+         
         </div>
 )
 }
 }
-export default Quarter4;
+export default Quarter5;

@@ -700,11 +700,11 @@ input::placeholder {
 #access a {
     display: block;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
-    /*padding-top: 23px;*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
     transition: none;
     -moz-transition: none;
     -webkit-transition: none;
@@ -768,7 +768,7 @@ input::placeholder {
 }
 
 .menu-item-link i{
-    margin-right:5px;
+    margin-right: 40px;
 }
 
 .menu_label{
@@ -986,6 +986,7 @@ input::placeholder {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-weight: 600;
 }
 
 #mobile_display{
@@ -1361,6 +1362,8 @@ input::placeholder {
     height: 100px;
     padding-top: 0px;
     max-width: 100%;
+    border-bottom: 1px solid #ddb327;
+    box-shadow: #ddb327 1px 2px 3px;
 }
 .header_transparent .header_wrapper.navbar-fixed-top.customnav{
     background-color: #fff;
@@ -2709,6 +2712,7 @@ input::placeholder {
 
 .customnav.header_type5 #access .menu-main-menu-container>ul>li>a {
     color: #ddb327;
+    margin-top: 20px;
 }
 .customnav.header_type5 #access .menu-main-menu-container>ul>li:hover>a{
     color:#ddb327;
@@ -3035,7 +3039,7 @@ input::placeholder {
 }
 
 .header_5_widget_wrap{
-    padding-right: 45px;
+    /*padding-right: 45px;*/
     top: 50%;
     margin-top: -17px;
 }
@@ -4310,8 +4314,8 @@ textarea.form-control {
     padding: 9px 35px;
     font-size: 14px;
     text-transform: uppercase;
-    -webkit-box-shadow: 0px 2px 0px 0px #ddb327;
-    box-shadow: 0px 2px 0px 0px #ddb327;
+    -webkit-box-shadow: 0px 1px 1px 0px #ddb327;
+    box-shadow: 0px 1px 1px 0px #ddb327;
 }
 
 #primary .btn{
@@ -21736,10 +21740,21 @@ button.slick-prev.slick-arrow {
     position:absolute;
     left:0px;
     right:0px;
-    bottom:13%;
+    bottom:5%;
     text-align: center;
     color: white;
-    background-color: rgba(221, 179, 39, 0.5);
+    background-color: rgba(221, 179, 39, 0.2);
+}
+
+.places_button_content{
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:45%;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+    /*background-color: rgba(225, 225, 225, 0.5);*/
 }
 
 .places_type_2_listings_no {
@@ -21774,7 +21789,7 @@ button.slick-prev.slick-arrow {
 }
 
 .places_wrapper_type_2 h4 a {
-    font-size: 28px;
+    font-size: 22px;
     text-align: center;
     cursor: pointer;
     color: white;
