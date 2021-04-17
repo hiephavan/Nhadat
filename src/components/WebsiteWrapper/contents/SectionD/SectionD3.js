@@ -8,7 +8,7 @@ class SectionD3 extends Component {
           <div className="elementor-container elementor-column-gap-default">
             <div className="elementor-row">
              <div className="wpestate_filter_list_properties_wrapper" data-align="vertical">
-              <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+              <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper_d property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
                 <div className="property_listing property_unit_type3  " data-link>
                   <div className="info_container_unit_3">
                     <div className="listing_unit_price_wrapper">
@@ -60,7 +60,7 @@ class SectionD3 extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+              <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper_d property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
                 <div className="property_listing property_unit_type3  " data-link>
                   <div className="info_container_unit_3">
                     <div className="listing_unit_price_wrapper">
@@ -112,7 +112,7 @@ class SectionD3 extends Component {
                   </div>
                 </div>
               </div>
-            <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+            <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper_d property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
                 <div className="property_listing property_unit_type3  " data-link>
                   <div className="info_container_unit_3">
                     <div className="listing_unit_price_wrapper">

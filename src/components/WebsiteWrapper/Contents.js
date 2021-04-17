@@ -20,7 +20,7 @@ class Contents extends Component {
 	            </div>
 	          </div>
 
-	          <div className="col-xs-12 col-md-12 single_width_page" style={{backgroundColor: 'white'}}>
+	          <div className="col-xs-12 col-md-12 single_width_page">
 	            <span className="entry-title listing_loader_title">Your search results</span>
 	            <div className="spinner" id="listing_loader">
 	              <div className="rect1">

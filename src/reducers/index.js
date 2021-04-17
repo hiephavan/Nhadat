@@ -27,7 +27,9 @@ import modelShow from './contents/sectionB/models/modelShow'
 import newsShow from './contents/sectionD/newsShow'
 import brokerBool from './contents/sectionC/brokerBool'
 import brokerAreaBool from './contents/sectionC/brokerAreaBool'
+
 const myReducer = combineReducers ({
+	
 	//Common
 		boolean: boolean,
 	//Header

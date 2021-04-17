@@ -1,11 +1,42 @@
 import React, { Component } from 'react';
+import throttle from 'lodash.throttle';
+import { useState, useEffect } from "react";
+import { connect } from 'react-redux'
+import * as actions from './../../../actions/index'
 import SectionC1 from './SectionC/sectionC1'
 import SectionC2 from './SectionC/sectionC2'
 
-class SectionC extends Component {
-  render() {
+ function SectionC() {
+    const [width, setWidth]   = useState(window.innerWidth);
+    const [height, setHeight] = useState(window.innerHeight);
+    const updateDimensions = () => {
+        setWidth(window.innerWidth);
+        setHeight(window.innerHeight);
+    }
+    useEffect(() => {
+        window.addEventListener("resize", updateDimensions);
+        return () => window.removeEventListener("resize", updateDimensions);
+    }, []);
+
+   
+    const marginleft = ()=>{
+       
+      if(`${width}`<767){
+       return 15;
+      }
+      else if(1200>`${width}`>767)
+      {
+       return  45;
+      }
+      else
+      { 
+        return (((`${width}`-1200)/2) +45 )
+      }
+    }
+
+    
     return (
-	   <section className="elementor-section elementor-top-section elementor-element elementor-element-e295a7 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e295a7" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style={{width: '1920px',height: '500px', left: '-405px'}}>
+	   <section className="elementor-section elementor-top-section elementor-element elementor-element-e295a7 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e295a7" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style={{width: `${width}px`, left: `-${marginleft()}px`, height: '500px'}}>
           <div className="elementor-background-overlay">
           </div>
           <div className="elementor-container elementor-column-gap-default" style ={{maxWidth: '840px'}}>
@@ -48,5 +79,9 @@ class SectionC extends Component {
         </section>
 )
 }
-}
-export default SectionC;
+
+
+export default (SectionC);
+
+
+

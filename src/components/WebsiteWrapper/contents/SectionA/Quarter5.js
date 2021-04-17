@@ -13,8 +13,8 @@ class Quarter5 extends Component {
                     <div className="places_wrapper_type_2" style={{backgroundImage: 'url(https://pariswpresidence.b-cdn.net/wp-content/uploads/2020/06/coast-980x777.jpg)', height: '340px'}}>
                       <div className="places_cover" data-link="https://paris.wpresidence.net/area/le-touquet/">
                       </div>
-                      <div className="places_button_content">
-                        <button type="button" style ={{padding: "0px 5px",position: 'absolute', height: '40px',width: '25px', marginTop: '-15%',marginLeft: '40%', backgroundColor :'#000'}}className="btn "><i class="fas fa-angle-right fa-lg"></i>
+                      <div style ={{paddingRight: '50px'}} className="places_button_content">
+                        <button type="button" style ={{padding: "0px 5px",position: 'absolute', height: '40px',width: '25px', marginTop: '-15%',marginLeft: '50%', backgroundColor :'#000'}}className="btn "><i class="fas fa-angle-right fa-lg"></i>
 
                      </button> 
                       </div>

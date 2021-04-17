@@ -1,3 +1,6 @@
+
+
+
 @media only screen and (max-width: 1767px){
 
     .leaflet-bottom.leaflet-right{
@@ -639,7 +642,7 @@
     }
 }
 
-@media only screen and  (max-width: 1200px) and (min-width: 1024px){
+@media only screen and  (max-width: 1440px) and (min-width: 1024px){
 
     .full_width_header .header_type1.header_left #access ul li.with-megamenu>ul.sub-menu,
     .full_width_header .header_type1.header_left #access ul li.with-megamenu:hover>ul.sub-menu{
@@ -658,7 +661,7 @@
 
     .col-md-3.listing_wrapper,
     .col-md-4.listing_wrapper{
-        width:50%;
+        width:25%;
     }
 
     .blog2v .property_listing {
@@ -684,7 +687,7 @@
 
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 992px){
+@media only screen and (max-width: 1440px) and (min-width: 992px){
 
     #listing_ajax_container_agent,
     #listing_ajax_container {
@@ -714,7 +717,7 @@
 
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1440px){
 
     .property_details_modal_container {
         width: 1190px;
@@ -1563,7 +1566,7 @@
 
 }
 
-@media only screen and  (max-width: 1024px) and (min-width: 992px){
+@media only screen and  (max-width: 1024px) and (min-width: 892px){
 
     .blog2v .property_listing_blog{
         min-height: 485px
@@ -1693,7 +1696,7 @@
     .col-md-4.listing_wrapper,
     .page-template-user_dashboard_favorite-php .col-md-6.listing_wrapper.property_unit_type1,
     .col-md-9.col-md-push-3.rightmargin .col-md-6.listing_wrapper{
-        width: 50%;
+        width: 33.333%;
     }
 
 
@@ -2482,8 +2485,19 @@
     }
 
 }
-
-@media only screen and  (max-width: 992px) and (min-width: 700px){
+@media only screen and (max-width: 1440px) and (min-width: 1024px){
+.listing_wrapper_d, .col-md-4.listing_wrapper_d {
+    width: 33.333%;
+    margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 700px){
+.listing_wrapper_d, .col-md-4.listing_wrapper_d {
+    width: 50%;
+    margin-bottom: 15px;
+}
+}
+@media only screen and  (max-width: 892px) and (min-width: 700px){
     .agents_4per_row .agent_unit {
         min-height: 450px;
     }

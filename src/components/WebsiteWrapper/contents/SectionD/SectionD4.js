@@ -8,7 +8,7 @@ class SectionD4 extends Component {
               <div className="elementor-container elementor-column-gap-default">
                 <div className="elementor-row">
                  <div className="wpestate_filter_list_properties_wrapper" data-align="vertical">
-                  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+                  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper_d property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
                     <div className="property_listing property_unit_type3  " data-link>
                       <div className="info_container_unit_3">
                         <div className="listing_unit_price_wrapper">
@@ -50,7 +50,133 @@ class SectionD4 extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+                  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper_d property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+                    <div className="property_listing property_unit_type3  " data-link>
+                      <div className="info_container_unit_3">
+                        <div className="listing_unit_price_wrapper">
+                          <a href="https://paris.wpresidence.net/properties/villa-on-washington-ave/">Cần thuê mặt bằng kinh doanh thời trang <span className="price_label">
+                            </span>
+                          </a>
+                        </div>
+                        <div className="property_listing_details">
+                          
+                          <i className ="fas fa-calendar-alt" style ={{marginLeft: '40px'}}><span style ={{marginLeft:'10px',fontFamily: 'roboto'}}>2021-3-29</span></i>
+
+                         
+                          <div className="infosize_unit_type3">
+                            <svg width={95} height={95} viewBox="0 0 95 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M13.9 54.5H0V95H40.6V81.1H13.9V54.5Z" fill="black">
+                              </path>
+                              <path d="M54.4 0V13.9H81.1V40.6H95V0H54.4Z" fill="black">
+                              </path>
+                              <path d="M81.1 71.3L23.7 13.9H40.6V0H0V40.6H13.9V23.7L71.3 81.1H54.4V95H95V54.5H81.1V71.3Z" fill="black">
+                              </path>
+                            </svg>250 m<sup>2</sup>
+                          </div>
+                        </div>
+                        <div className="property_address_type3"><i class="fas fa-map-marker-alt"></i> 53 W 88th St, <a href="https://paris.wpresidence.net/city/paris/" rel="tag">Paris</a>
+                        </div>
+                      </div>
+                      <div className="property_location_unit_type3">
+                        <div className="property_agent_wrapper property_agent_wrapper_type1">
+                          <span>
+                            <strong>Agent:</strong>
+                          </span>
+                          <a href="https://paris.wpresidence.net/agents/maria-barlow/">
+                            <i className="far fa-user-circle unit3agent">
+                            </i> Maria Barlow</a>
+                        </div>
+                        <div className="unit_type3_details">
+                          <a href="https://paris.wpresidence.net/properties/villa-on-washington-ave/">Chi tiết</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper_d property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+                    <div className="property_listing property_unit_type3  " data-link>
+                      <div className="info_container_unit_3">
+                        <div className="listing_unit_price_wrapper">
+                          <a href="https://paris.wpresidence.net/properties/villa-on-washington-ave/">Cần thuê mặt bằng kinh doanh thời trang <span className="price_label">
+                            </span>
+                          </a>
+                        </div>
+                        <div className="property_listing_details">
+                          
+                          <i className ="fas fa-calendar-alt" style ={{marginLeft: '40px'}}><span style ={{marginLeft:'10px',fontFamily: 'roboto'}}>2021-3-29</span></i>
+
+                         
+                          <div className="infosize_unit_type3">
+                            <svg width={95} height={95} viewBox="0 0 95 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M13.9 54.5H0V95H40.6V81.1H13.9V54.5Z" fill="black">
+                              </path>
+                              <path d="M54.4 0V13.9H81.1V40.6H95V0H54.4Z" fill="black">
+                              </path>
+                              <path d="M81.1 71.3L23.7 13.9H40.6V0H0V40.6H13.9V23.7L71.3 81.1H54.4V95H95V54.5H81.1V71.3Z" fill="black">
+                              </path>
+                            </svg>250 m<sup>2</sup>
+                          </div>
+                        </div>
+                        <div className="property_address_type3"><i class="fas fa-map-marker-alt"></i> 53 W 88th St, <a href="https://paris.wpresidence.net/city/paris/" rel="tag">Paris</a>
+                        </div>
+                      </div>
+                      <div className="property_location_unit_type3">
+                        <div className="property_agent_wrapper property_agent_wrapper_type1">
+                          <span>
+                            <strong>Agent:</strong>
+                          </span>
+                          <a href="https://paris.wpresidence.net/agents/maria-barlow/">
+                            <i className="far fa-user-circle unit3agent">
+                            </i> Maria Barlow</a>
+                        </div>
+                        <div className="unit_type3_details">
+                          <a href="https://paris.wpresidence.net/properties/villa-on-washington-ave/">Chi tiết</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper_d property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+                    <div className="property_listing property_unit_type3  " data-link>
+                      <div className="info_container_unit_3">
+                        <div className="listing_unit_price_wrapper">
+                          <a href="https://paris.wpresidence.net/properties/villa-on-washington-ave/">Cần thuê mặt bằng kinh doanh thời trang <span className="price_label">
+                            </span>
+                          </a>
+                        </div>
+                        <div className="property_listing_details">
+                          
+                          <i className ="fas fa-calendar-alt" style ={{marginLeft: '40px'}}><span style ={{marginLeft:'10px',fontFamily: 'roboto'}}>2021-3-29</span></i>
+
+                         
+                          <div className="infosize_unit_type3">
+                            <svg width={95} height={95} viewBox="0 0 95 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M13.9 54.5H0V95H40.6V81.1H13.9V54.5Z" fill="black">
+                              </path>
+                              <path d="M54.4 0V13.9H81.1V40.6H95V0H54.4Z" fill="black">
+                              </path>
+                              <path d="M81.1 71.3L23.7 13.9H40.6V0H0V40.6H13.9V23.7L71.3 81.1H54.4V95H95V54.5H81.1V71.3Z" fill="black">
+                              </path>
+                            </svg>250 m<sup>2</sup>
+                          </div>
+                        </div>
+                        <div className="property_address_type3"><i class="fas fa-map-marker-alt"></i> 53 W 88th St, <a href="https://paris.wpresidence.net/city/paris/" rel="tag">Paris</a>
+                        </div>
+                      </div>
+                      <div className="property_location_unit_type3">
+                        <div className="property_agent_wrapper property_agent_wrapper_type1">
+                          <span>
+                            <strong>Agent:</strong>
+                          </span>
+                          <a href="https://paris.wpresidence.net/agents/maria-barlow/">
+                            <i className="far fa-user-circle unit3agent">
+                            </i> Maria Barlow</a>
+                        </div>
+                        <div className="unit_type3_details">
+                          <a href="https://paris.wpresidence.net/properties/villa-on-washington-ave/">Chi tiết</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper_d property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
                     <div className="property_listing property_unit_type3  " data-link>
                       <div className="info_container_unit_3">
                         <div className="listing_unit_price_wrapper">
@@ -102,7 +228,7 @@ class SectionD4 extends Component {
                       </div>
                     </div>
                   </div>
-                <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
+                <div className="col-md-4 shortcode-col has_prop_slider  listing_wrapper_d property_unit_type3" data-org={4} data-main-modal="https://pariswpresidence.b-cdn.net/wp-content/uploads/2014/05/decor_nice-2-835x467.jpg" data-modal-title="Villa On Washington Ave" data-modal-link="https://paris.wpresidence.net/properties/villa-on-washington-ave/" data-listid={139}>
                     <div className="property_listing property_unit_type3  " data-link>
                       <div className="info_container_unit_3">
                         <div className="listing_unit_price_wrapper">
