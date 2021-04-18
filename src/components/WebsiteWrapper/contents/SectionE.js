@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class SectionE extends Component {
   render() {
     return (
-	   <section className="elementor-section elementor-top-section elementor-element elementor-element-52ba5f7a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="52ba5f7a" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style={{width: '1192px', left: '-45px'}}>
+	   <section className="elementor-section elementor-top-section elementor-element elementor-element-52ba5f7a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="52ba5f7a" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" >
 	      <div className="elementor-container elementor-column-gap-default">
 	        <div className="elementor-row">
 	          <div className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d817030" data-id="d817030" data-element_type="column">

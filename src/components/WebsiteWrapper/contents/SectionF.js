@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class SectionF extends Component {
   render() {
     return (
-	   <section className="elementor-section elementor-top-section elementor-element elementor-element-694cf7b9 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="694cf7b9" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;mountains&quot;}" style={{width: '1192px', left: '-45px'}}>
+	   <section className="elementor-section elementor-top-section elementor-element elementor-element-694cf7b9 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="694cf7b9" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;mountains&quot;}" >
           <div className="elementor-shape elementor-shape-top" data-negative="false">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
               <path className="elementor-shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z">

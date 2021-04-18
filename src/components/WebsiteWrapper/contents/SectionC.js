@@ -21,16 +21,13 @@ import SectionC2 from './SectionC/sectionC2'
    
     const marginleft = ()=>{
        
-      if(`${width}`<767){
+      if(`${width}`<=1440){
        return 15;
       }
-      else if(1200>`${width}`>767)
-      {
-       return  45;
-      }
+      
       else
       { 
-        return (((`${width}`-1200)/2) +45 )
+        return (((`${width}`-1440)/2) +15 )
       }
     }
 
@@ -39,20 +36,20 @@ import SectionC2 from './SectionC/sectionC2'
 	   <section className="elementor-section elementor-top-section elementor-element elementor-element-e295a7 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e295a7" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style={{width: `${width}px`, left: `-${marginleft()}px`, height: '500px'}}>
           <div className="elementor-background-overlay">
           </div>
-          <div className="elementor-container elementor-column-gap-default" style ={{maxWidth: '840px'}}>
+          <div className="elementor-container elementor-column-gap-default" >
             <div className="elementor-row">
               <div className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1fa338fb" data-id="1fa338fb" data-element_type="column">
                 <div className="elementor-column-wrap elementor-element-populated">
                   <div className="elementor-widget-wrap">
                     <div className="search_wrapper search_wr_10     with_search_on_start  without_search_form_float " id="search_wrapper" data-postid={19518} style={{marginTop: '60px', marginBottom: '-5px',display: 'flex',  justifyContent: 'center'}}>
-                      <div className="adv-search-1  adv_extended_class" id="adv-search-1">
+                      <div className="adv-search-1_c  adv_extended_class" id="adv-search-1_c">
                        <h2 style ={{display: 'flex', textAlign :"center", color: 'White', justifyContent: 'center', marginBottom: '50px'}} > Tìm kiếm thông tin nhà môi giới trong khu vực của bạn </h2>
                         <form role="search" method="get" action="https://paris.wpresidence.net/advanced-search-2/" style={{marginTop: '15px'}}>
                           <SectionC1 />
                           <SectionC2 />
 
-                          <div className="adv-search-1  adv_extended_class" id="adv-search-1">
-                            <div style ={{  padding: '0px'}} className="col-md-2">
+                          <div className="adv-search-1_c  adv_extended_class" id="adv-search-1_c">
+                            <div style ={{  paddingLeft: '5px'}} className="col-md-2">
                               <input name="submit" type="submit" className="wpresidence_button" id="advanced_submit_10" value="Tìm kiếm" />
                             </div>
                           </div>

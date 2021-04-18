@@ -18,7 +18,7 @@ function SectionC1() {
   const [selected, setSelected] = useState([]);
   
 	return (
-		<div className="col-md-5" style ={{ margin: '0px 0px 0px 10px', padding: '0px'}}>
+		<div className="col-md-5" style ={{ margin: '0px 5px 0px', padding: '0px'}}>
 		    <MultiSelect
 		        options={options}
 		        value={selected}

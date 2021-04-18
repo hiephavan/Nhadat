@@ -1387,6 +1387,9 @@
     .has_header_type4 #search_wrapper.with_search_form_float{
         width: 1010px;
     }
+    .adv-search-1_c {
+        width: 920px;
+    }
 
     #search_wrapper.search_wr_11  .col-md-2,
     #search_wrapper.search_wr_10 .col-md-2 {
@@ -1887,6 +1890,10 @@
     .adv-search-1,
     .transparent-wrapper{
         width:100%!important;
+    }
+    .adv-search-1_c,
+    .transparent-wrapper{
+        width:60%!important;
     }
 
     #google_map_prop_list_sidebar .adv-search-1{
@@ -2488,7 +2495,7 @@
 @media only screen and (max-width: 1440px) and (min-width: 1024px){
 .listing_wrapper_d, .col-md-4.listing_wrapper_d {
     width: 33.333%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 }
 @media only screen and (max-width: 1024px) and (min-width: 700px){
@@ -2597,6 +2604,7 @@
     }
 
     .row_user_dashboard .breadcrumb_container{
+
         display:none;
     }
 
@@ -3194,6 +3202,10 @@
     .adv-search-1{
         width:100%;
         display: none;
+    }
+    .adv-search-1_c{
+        width:60%;
+        
     }
 
     #search_wrapper.search_wrapper.search_wr_8.with_search_on_end.without_search_form_float {
